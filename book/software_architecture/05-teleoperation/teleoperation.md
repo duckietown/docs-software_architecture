@@ -7,12 +7,12 @@ TODO: add video here
 
 Drivers:
 
-- <a class="number_name" href="#adafruit_drivers"/>
-- <a class="number_name" href="#pi_camera"/>
+- <a class="number_name" href="+code_docs#adafruit_drivers"/>
+- <a class="number_name" href="+code_docs#pi_camera"/>
 
 Operator interface:
 
-- <a class="number_name" href="#joy_mapper"/>
+- <a class="number_name" href="+code_docs#joy_mapper"/>
 
 
 ## Camera
