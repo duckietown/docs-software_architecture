@@ -1,6 +1,3 @@
-# The duckietown system {#book:duckietown-software status=ready}
-
-Maintainer: Andrea Censi
 
 
 # Overview {#part:duckietown-software-part status=ready}
