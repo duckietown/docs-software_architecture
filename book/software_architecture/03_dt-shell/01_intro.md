@@ -31,7 +31,7 @@ You can install dt-shell by running
 
 You can launch the shell by running the command
 
-    $ dt
+    $ dts
 
 You should see the dt-shell prompt
 
