@@ -1,6 +1,6 @@
-# Commands {#dt-shell-commands status=draft}
+# Commands {#dt-shell-commands status=ready}
 
-Maintainer: Andrea Daniele
+
 
 `dt-shell` is modular, and the `pip` package does not contain commands. The first time you launch
 the shell, the most recent version of the commands will be automatically downloaded and made available

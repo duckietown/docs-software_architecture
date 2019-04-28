@@ -1,4 +1,4 @@
-# Duckietown ROS Guidelines {#duckietown-ROS-conventions status=draft}
+# Duckietown ROS Guidelines {#duckietown-ROS-conventions status=ready}
 
 ## Node and Topics
 In the source code, a node must only publish/subscribe to private topics.

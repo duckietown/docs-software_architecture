@@ -1,4 +1,4 @@
-# Lane control {#lane-control-stack status=draft}
+# Lane control {#lane-control-stack status=beta}
 
 TODO: video here
 

@@ -1,4 +1,4 @@
-# Coordination {#coordination-stack status=draft}
+# Coordination {#coordination-stack status=beta}
 
 
 TODO: add video here
