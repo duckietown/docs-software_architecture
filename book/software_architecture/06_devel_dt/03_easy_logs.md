@@ -1,7 +1,5 @@
 # Duckietown logs facilities {#easy_logs status=ready}
 
-Maintainer: Andrea Censi
-
 This document describes how to use the tools for querying and downloading logs.
 
 ## Installation
@@ -26,7 +24,7 @@ You can query the cloud DB using the program `dt-logs-summary`:
 
     $  dt-logs-summary  
 
-You can also include a query string: 
+You can also include a query string:
 
     $  dt-logs-summary ![query]
 
@@ -96,7 +94,7 @@ the log. Then, we use `dt-logs-find` to find the path.
 
     # We can now use the log
     vdir ${filename}
-    
+
 ### `dt-logs-copy`: Copy the logs to a local directory
 
 To copy the logs to a local directory, use the command `dt-logs-copy`:
@@ -134,19 +132,19 @@ Use `dt-logs-details` to have more details about a log:
           - {messages: 9, topic: /oreo/apriltags_global_node/tags_image,
              type: sensor_msgs/Image}
      ![...]
-     
+
 
 ### `dt-logs-thumbnails`: Create thumbnails
 
 Use `dt-logs-thumbnails` to create thumbnails:
 
     $ dt-logs-thumbnails ![logs query]
-    
+
 For example:
 
     $ dt-logs-thumbnails 20160503164104_ayrton
     Created out-dt-logs-thumbnails/20160503164104_ayrton.thumbnails.jpg
-    
+
 Use the option `--write_frames` to write each frame separately.
 
     $ dt-logs-thumbnails --write_frames 20160503164104_ayrton
@@ -164,12 +162,12 @@ Use the option `--all_topics` to do this for all topics, in addition to the came
 Use `dt-logs-videos` to create videos:
 
     $ dt-logs-videos ![logs query]
-    
+
 For example:
 
     $ dt-logs-videos 20160503164104_ayrton
     Created: out-dt-logs-videos/20160503164104_ayrtonvideo.mp4
-    
+
 
 ## The selector language {#selector-language}
 
@@ -269,7 +267,7 @@ Give me three random logs:
 
     $ dt-logs-summary  "all/shuffle/[:3]"
 
- 
+
 ### Time indexing  {#easy_logs-time-indexing}
 
 
@@ -299,40 +297,39 @@ Give me the interval between 30 s and 35 s:
 You can run the commands using th Docker container `duckietown/logs`, by using:
 
     $ docker run -it duckietown/logs dt-logs-![commands] ![arguments]
-    
+
 ### Recipe: see the logs
 
 For example, see the logs DB:
 
-    $ docker run -it duckietown/logs dt-logs-summary 
+    $ docker run -it duckietown/logs dt-logs-summary
 
 ### Recipe: copy cloud logs to the current directory
 
 Copy some logs to the current directory.
 
-    $ docker run -it -v $PWD:/mylogs duckietown/logs dt-logs-copy --outdir /mylogs 20171124170042_yaf 
+    $ docker run -it -v $PWD:/mylogs duckietown/logs dt-logs-copy --outdir /mylogs 20171124170042_yaf
 
 Note here we mount the current directory as `/mylogs` using the Docker options:
 
     -v $PWD:/mylogs
-    
+
 and then we specify it as the output dir for `dt-logs-copy`.
 
 ### Recipe: create thumbnails
 
 Create thumbnails:
 
-    $ docker run -it -v $PWD:/outdir duckietown/logs dt-logs-thumbnails --outdir /outdir 20171124170042_yaf 
+    $ docker run -it -v $PWD:/outdir duckietown/logs dt-logs-thumbnails --outdir /outdir 20171124170042_yaf
 
 ### Recipe: create video
 
 Create videos:
 
-    $ docker run -it -v $PWD:/outdir duckietown/logs dt-logs-videos --outdir /outdir 20171124170042_yaf 
+    $ docker run -it -v $PWD:/outdir duckietown/logs dt-logs-videos --outdir /outdir 20171124170042_yaf
 
 ### Adding persistence
 
 Mount the directory `/dt-data/DUCKIETOWN_TMP` to have the tmp data persist across invocations:
 
-    $ mkdir -p dt-tmp-data && docker run -it -v $PWD/dt-tmp-data:/dt-data/DUCKIETOWN_TMP duckietown/logs dt-logs-videos 20171124170042_yaf 
-
+    $ mkdir -p dt-tmp-data && docker run -it -v $PWD/dt-tmp-data:/dt-data/DUCKIETOWN_TMP duckietown/logs dt-logs-videos 20171124170042_yaf

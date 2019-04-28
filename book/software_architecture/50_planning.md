@@ -1,4 +1,4 @@
-# Planning {#planning-stack status=draft}
+# Planning {#planning-stack status=beta}
 
 TODO: add video here
 

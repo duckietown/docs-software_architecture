@@ -1,6 +1,6 @@
-# Introduction to dt-shell {#dt-shell-intro status=draft}
+# Introduction to dt-shell {#dt-shell-intro status=beta}
 
-Maintainer: Andrea Daniele
+
 
 Duckietown Shell (dt-shell) is a pure Python utility for Duckietown.
 

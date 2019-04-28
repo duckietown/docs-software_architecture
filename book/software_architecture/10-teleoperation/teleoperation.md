@@ -1,4 +1,4 @@
-# Teleoperation {#teleoperation-stack status=draft}
+# Teleoperation {#teleoperation-stack status=beta}
 
 TODO: add video here
 

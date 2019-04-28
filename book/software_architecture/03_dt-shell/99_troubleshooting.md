@@ -1,6 +1,6 @@
-# Troubleshooting {#dt-shell-troubleshooting status=draft}
+# Troubleshooting {#dt-shell-troubleshooting status=beta}
 
-Maintainer: Andrea Daniele
+
 
 ## Issue with TAB auto-complete
 

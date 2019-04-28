@@ -1,6 +1,6 @@
-# Custom commands {#dt-shell-custom-commands status=draft}
+# Custom commands {#dt-shell-custom-commands status=ready}
 
-Maintainer: Andrea Daniele
+
 
 `dt-shell` downloads all the commands from the git repository
 [duckietown/duckietown-shell-commands](https://github.com/duckietown/duckietown-shell-commands).

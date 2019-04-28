@@ -1,8 +1,8 @@
-# Road Release Process {#road-release-process status=draft}
+# Road Release Process {#road-release-process status=beta}
 
 <div class='requirements' markdown='1'>
 
-Requires: You have implemented a new feature or improved an existing feature in your branch `devel-![project_name]` 
+Requires: You have implemented a new feature or improved an existing feature in your branch `devel-![project_name]`
 
 Requires: A robot that is configured and able to follow lanes in Duckietown according to instructions in [](+fall2017_info#checkoff_navigation)
 
@@ -11,7 +11,7 @@ Result: Your branch gets merged into `master` and doesn't break anything
 </div>
 
 
-This page is about what to do once you have developed and tested your new or improved feature and you want to contribute it back to the `master` branch. 
+This page is about what to do once you have developed and tested your new or improved feature and you want to contribute it back to the `master` branch.
 
 Note: If your branch is not merged into `master` and passes all the tests it will be lost forever.
 
@@ -37,7 +37,7 @@ TODO:
 
 TODO: Once the simulator is up and running it should become part of the testing infrastructure.
 
-## Hardware-in-the-loop (HWIL) 
+## Hardware-in-the-loop (HWIL)
 
 If you have been doing your development on your laptop or some other computer, the time is now to put the code on the RasPI and test.
 

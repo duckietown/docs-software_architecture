@@ -1,4 +1,4 @@
-# Jupyter  {#jupyter status=draft}
+# Jupyter  {#jupyter status=ready}
 
 TODO: extract the code from `1710-place-recognition`.
 

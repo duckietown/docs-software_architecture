@@ -1,4 +1,4 @@
-# Configuration {#configuration-files status=beta}
+# Configuration {#configuration-files status=ready}
 
 This chapter explains what are the assumptions about the configuration.
 
@@ -52,7 +52,7 @@ Note: The way to set these up is to add them in the file `~/.bashrc` (`export ![
 }
 </style>
 
-### Duckietown root directory `DUCKIETOWN_ROOT` {#duckietown-directory status=draft}
+### Duckietown root directory `DUCKIETOWN_ROOT` {#duckietown-directory status=beta}
 
 TODO: to write
 
@@ -123,9 +123,9 @@ The `machines` file is created from the scuderia data using this command:
 
     $ rosrun duckieteam create-machines
 
-## People database {#people-file status=draft}
+## People database {#people-file status=beta}
 
-Assigned: Andrea Censi
+
 
 
 TODO: Describe the people database.
@@ -140,7 +140,7 @@ It is equal to the Slack username.
 Comment: There is no Slack username anymore, so we should change this to some other convention. -AC
 
 
-## Modes of operation {#modes-of-operation status=draft}
+## Modes of operation {#modes-of-operation status=ready}
 
 There are 3 modes of operation:
 

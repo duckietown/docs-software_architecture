@@ -1,4 +1,4 @@
-# Indefinite navigation {#indefinite-navigation-stack status=draft}
+# Indefinite navigation {#indefinite-navigation-stack status=beta}
 
 TODO: add video here
 
