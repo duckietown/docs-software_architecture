@@ -1,5 +1,5 @@
 version: 3
-jobs:
+jobs: 
   build:
     docker:
       - image: duckietown/docs-build:daffy
